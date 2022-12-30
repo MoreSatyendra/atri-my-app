@@ -1,0 +1,26 @@
+{
+  "home": {
+    "name": "Home",
+    "route": "/"
+  },
+  "8608990f-0c53-4571-a821-e5c86cddccbc": {
+    "name": "about",
+    "route": "/about"
+  },
+  "57427dd6-8d0b-47be-b64c-6203413e1b26": {
+    "name": "blog",
+    "route": "/blog"
+  },
+  "533b95da-635e-413a-85bc-b4a2a905f622": {
+    "name": "project",
+    "route": "/project"
+  },
+  "0a8f677a-cf6e-4f40-9eef-d728e0fb59d7": {
+    "name": "contact",
+    "route": "/contact"
+  },
+  "cc583325-5ed4-4204-87c7-9904d2017cee": {
+    "name": "services",
+    "route": "/services"
+  }
+}

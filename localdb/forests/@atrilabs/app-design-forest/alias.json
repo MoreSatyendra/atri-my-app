@@ -1,0 +1,11 @@
+{
+  "Div": 1,
+  "Link": 2,
+  "Flex": 311,
+  "TextBox": 256,
+  "Image": 124,
+  "Button": 8,
+  "Table": 1,
+  "UnorderedList": 5,
+  "Testimonial": 2
+}
