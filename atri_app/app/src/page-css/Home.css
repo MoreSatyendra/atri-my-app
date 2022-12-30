@@ -1014,12 +1014,9 @@ padding-top: 80px;
 }
 .p-Home.Flex276 {
 display: flex;
-justify-content: flex-start;
+justify-content: center;
 width: ;
 align-items: center;
-}
-.p-Home.Flex282 {
-display: flex;
 }
 .p-Home.Flex277 {
 display: flex;
@@ -1081,31 +1078,6 @@ margin-left: 10px;
 height: 25px;
 cursor: pointer;
 }
-.p-Home.Button1 {
-color: #fff;
-background-color: #ffff;
-padding-top: 8px;
-padding-left: 15px;
-padding-bottom: 8px;
-padding-right: 15px;
-font-size: 22px;
-border-radius: 2px;
-outline: none;
-font-weight: 600;
-text-align: center;
-border-width: 0px;
-border-style: none;
-border-color: #000000;
-cursor: pointer;
-user-select: none;
-max-width: 372px;
-width: 150px;
-height: 60px;
-font-family: IBM Plex Sans;
-position: relative;
-top: 10px;
-left: 10px;
-}
 .p-Home.Button4 {
 color: #fff;
 background-color: #000f;
@@ -1127,7 +1099,7 @@ max-width: 372px;
 width: 150px;
 height: 60px;
 font-family: IBM Plex Sans;
-position: absolute;
+position: static;
 }
 .p-Home.TextBox49 {
 font-family: IBM Plex Sans;
@@ -2090,53 +2062,26 @@ color: #000f;
 width: 28px;
 height: 28px;
 }
-.p-Home.Button5 {
+.p-Home.Button9 {
 color: #fff;
-background-color: #000f;
-padding-top: 20px;
-padding-left: 30px;
-padding-bottom: 20px;
-padding-right: 30px;
-font-size: 22px;
+background-color: #1890ff;
+padding-top: 8px;
+padding-left: 15px;
+padding-bottom: 8px;
+padding-right: 15px;
+font-size: 18px;
 border-radius: 2px;
 outline: none;
 font-weight: 600;
 text-align: center;
 border-width: 1px;
 border-style: solid;
-border-color: #000000;
+border-color: #1890ff;
 cursor: pointer;
 user-select: none;
-max-width: 372px;
-width: ;
-height: ;
+width: 150px;
+height: 60px;
 font-family: IBM Plex Sans;
-position: absolute;
-}
-.p-Home.Button6 {
-color: #fff;
-background-color: #ffff;
-padding-top: 20px;
-padding-left: 30px;
-padding-bottom: 20px;
-padding-right: 30px;
-font-size: 22px;
-border-radius: 2px;
-outline: none;
-font-weight: 600;
-text-align: center;
-border-width: 0px;
-border-style: none;
-border-color: #000000;
-cursor: pointer;
-user-select: none;
-max-width: 372px;
-width: ;
-height: ;
-font-family: IBM Plex Sans;
-position: relative;
-top: 10px;
-left: 10px;
 }
 .p-Home.TextBox222 {
 font-family: IBM Plex Sans;

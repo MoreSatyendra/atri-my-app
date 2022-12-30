@@ -15,24 +15,104 @@
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
 }
-.p-Home.Button1 {
-  background-image: linear-gradient(
-    108deg,
-    #b16cea 8%,
-    #ff5e69 40%,
-    #ff8a56 77%,
-    #ffa84b 91%
-  );
+.p-Home.Button4 {
+  height: 60px;
+  width: 180px;
+  background-color: #e8ebf0;
+  border: 5px solid #202538;
+  position: relative;
+  cursor: pointer;
+
+  &:before,
+  &:after {
+    content: "Book a Call";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #e8ebf0;
+    border: 5px solid #202538;
+    transition: 0.3s;
+  }
+
+  &:before {
+    bottom: -15px;
+    left: -15px;
+    z-index: -1;
+  }
+
+  &:after {
+    content: "Book a Call";
+    color: #202538;
+    letter-spacing: 3px;
+    display: grid;
+    place-items: center;
+    top: -15px;
+    right: -15px;
+    z-index: 1;
+  }
+
+  &:hover:before {
+    bottom: -5px;
+    left: -5px;
+  }
+
+  &:hover:after {
+    top: -5px;
+    right: -5px;
+    background-color: #202538;
+    color: #e8ebf0;
+  }
 }
-.p-Home.Button6 {
-  background-image: linear-gradient(
-    108deg,
-    #b16cea 8%,
-    #ff5e69 40%,
-    #ff8a56 77%,
-    #ffa84b 91%
-  );
+
+.p-Home.Button9 {
+  height: 60px;
+  width: 220px;
+  background-color: #e8ebf0;
+  border: 5px solid #202538;
+  position: relative;
+  cursor: pointer;
+
+  &:before,
+  &:after {
+    content: "View all project";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #e8ebf0;
+    border: 5px solid #202538;
+    transition: 0.3s;
+  }
+
+  &:before {
+    bottom: -15px;
+    left: -15px;
+    z-index: -1;
+  }
+
+  &:after {
+    content: "View all project";
+    color: #202538;
+    letter-spacing: 3px;
+    display: grid;
+    place-items: center;
+    top: -15px;
+    right: -15px;
+    z-index: 1;
+  }
+
+  &:hover:before {
+    bottom: -5px;
+    left: -5px;
+  }
+
+  &:hover:after {
+    top: -5px;
+    right: -5px;
+    background-color: #202538;
+    color: #e8ebf0;
+  }
 }
+
 .p-Home.TextBox54 {
   background-image: linear-gradient(
     108deg,
@@ -70,6 +150,11 @@
   -webkit-text-fill-color: transparent;
 }
 .p-Home.TextBox170 {
+  position: relative;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-image: linear-gradient(
     108deg,
     #b16cea 8%,
@@ -77,9 +162,28 @@
     #ff8a56 77%,
     #ffa84b 91%
   );
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 54px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+
+  &:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+
+  &:hover {
+    color: #ffffff;
+
+    &:after {
+      width: 100%;
+    }
+  }
 }
 .p-Home.TextBox200 {
   background-image: linear-gradient(
@@ -105,6 +209,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .p-Home.TextBox222 {
   background-image: linear-gradient(
     108deg,
@@ -116,6 +221,43 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.p-Home.TextBox180,
+.p-Home.TextBox179,
+.p-Home.TextBox178,
+.p-Home.TextBox177,
+.p-Home.TextBox176,
+.p-Home.TextBox175,
+.p-Home.TextBox174,
+.p-Home.TextBox173,
+.p-Home.TextBox153 {
+  position: relative;
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+  margin: 0 0 25px 0;
+
+  &:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+
+  &:hover {
+    color: #ffffff;
+
+    &:after {
+      width: 100%;
+    }
+  }
 }
 
 .p-Home.TextBox239 {

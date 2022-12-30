@@ -460,9 +460,6 @@ const desktopModeProps = {
     "Flex276": {
       "callbacks": {}
     },
-    "Flex282": {
-      "callbacks": {}
-    },
     "Flex277": {
       "callbacks": {}
     },
@@ -616,18 +613,6 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/icons8-right-arrow-50.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Button1": {
-      "custom": {
-        "text": "Submit"
       },
       "callbacks": {
         "onClick": [
@@ -2655,21 +2640,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "Button5": {
+    "Button9": {
       "custom": {
-        "text": "Visit all projects"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Button6": {
-      "custom": {
-        "text": "Visit all projects"
+        "text": ""
       },
       "callbacks": {
         "onClick": [
